@@ -4,6 +4,7 @@ total_10 = sprintf('%.2f', total*0.1)
 total_15 = sprintf('%.2f', total*0.15)
 total_20 = sprintf('%.2f', total*0.2)
 
+
 puts "How much tip do you want to pay, 10% ($#{total_10}) 15% ($ #{total_15}) or 20% ($ #{total_20})?"
 tip = gets.chomp.delete('%').to_f
 tip_1 = tip / 100
